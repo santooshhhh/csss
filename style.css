@@ -175,10 +175,18 @@ font-size: 12px;
 font-size: 12px;
 }
 @media only screen and (max-width: 768px) {
-     .header {
+    .header {
         padding: 0 5px;
         display: flex; 
     }
+    .logo {
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    margin-bottom: 10px;
+
+}
+
     .header-content a {
         padding: 5px 10px;
         font-size: 10px;
