@@ -27,7 +27,7 @@ header {
     justify-content: space-between; /* Aligns items to the start and end of the header */
     align-items: center; /* Centers items vertically */
     z-index: 999;
-    padding: 0 20px;backdrop-filter: blur(10px);
+    padding: 0 20px;
     backdrop-filter: blur(7px); 
 }
 
@@ -176,6 +176,7 @@ font-size: 12px;
 }
 @media only screen and (max-width: 768px) {
      .header {
+        padding: 0 5px;
         display: flex; 
     }
     .header-content a {
