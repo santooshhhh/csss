@@ -1,5 +1,12 @@
 html{scroll-behavior: smooth;}
 @import url('https://fonts.googleapis.com/css2?family=Century+Gothic&display=swap');
+@supports (-webkit-appearance:none) {
+    @font-face {
+        font-family: 'Century Gothic';
+        src: url('CenturyGothic.woff2') format('woff2'),
+             url('CenturyGothic.woff') format('woff');
+    }
+}
 body {
     margin:0; 
     padding: 0;
